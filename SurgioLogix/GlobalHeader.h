@@ -46,6 +46,8 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 #define SaleInvoice4 @"saleonvoice4"
 #define OrderControl @"ordercontrol"
 #define SaleInvoice @"saleinvoice"
+#define Website @"WebsiteViewController"
+
 #define IPHONESTORY [UIStoryboard storyboardWithName:@"Main" bundle:nil]
 #define IPADSTORY [UIStoryboard storyboardWithName:@"MainIpad" bundle:nil]
 

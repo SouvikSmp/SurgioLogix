@@ -86,6 +86,9 @@
                                 <state key="normal" title="Button" image="websites_icon">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnActionWebsite:" destination="ji3-Zc-19P" eventType="touchUpInside" id="ifK-EP-hfE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" alpha="0.89999999999999991" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="cWr-Gb-dLU">
                                 <rect key="frame" x="10" y="87" width="140" height="140"/>

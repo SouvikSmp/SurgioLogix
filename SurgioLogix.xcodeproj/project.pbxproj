@@ -58,6 +58,7 @@
 		37ECF7EA1B0A1E2100250B08 /* OrderTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37ECF7E81B0A1E2100250B08 /* OrderTableCell.xib */; };
 		37ECF7ED1B0A1E8A00250B08 /* OrderFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ECF7EC1B0A1E8A00250B08 /* OrderFormViewController.m */; };
 		37ECF7F01B0A291300250B08 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ECF7EF1B0A291300250B08 /* CustomView.m */; };
+		4ED63EA01B19CA540064EB91 /* WebsiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED63E9F1B19CA540064EB91 /* WebsiteViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -182,6 +183,8 @@
 		37ECF7EC1B0A1E8A00250B08 /* OrderFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderFormViewController.m; sourceTree = "<group>"; };
 		37ECF7EE1B0A291300250B08 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
 		37ECF7EF1B0A291300250B08 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		4ED63E9E1B19CA540064EB91 /* WebsiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebsiteViewController.h; sourceTree = "<group>"; };
+		4ED63E9F1B19CA540064EB91 /* WebsiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebsiteViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -359,6 +362,8 @@
 				37BE72441B15CE9700CC0CBF /* SaleInvoiceLastViewController.m */,
 				37ECF7EB1B0A1E8A00250B08 /* OrderFormViewController.h */,
 				37ECF7EC1B0A1E8A00250B08 /* OrderFormViewController.m */,
+				4ED63E9E1B19CA540064EB91 /* WebsiteViewController.h */,
+				4ED63E9F1B19CA540064EB91 /* WebsiteViewController.m */,
 				37DA7B331AFB413A0001E6C6 /* Main.storyboard */,
 				377686531B0F3F9700A617C9 /* MainIpad.storyboard */,
 				37E27B671B12E8D200A4FFA0 /* CustomViewX.h */,
@@ -543,6 +548,7 @@
 				377686571B0F4F5F00A617C9 /* GlobalViewController.m in Sources */,
 				37E27B691B12E8D200A4FFA0 /* CustomViewX.m in Sources */,
 				37DA7B2F1AFB413A0001E6C6 /* AppDelegate.m in Sources */,
+				4ED63EA01B19CA540064EB91 /* WebsiteViewController.m in Sources */,
 				37D79FAA1B0482DF00DE979B /* pendingOperations.m in Sources */,
 				37ECF7E91B0A1E2100250B08 /* OrderTableCell.m in Sources */,
 				37DD9B151B13582400C04A3E /* SaleViewController.m in Sources */,
@@ -694,6 +700,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SurgioLogix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -708,6 +715,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SurgioLogix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
